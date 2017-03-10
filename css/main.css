@@ -155,7 +155,7 @@ h5, h6          { font-weight: bolder }
         margin-bottom: 30px;
     }
 
-    header nav ul li a{
+    header nav ul li a,header .logo p{
         color: #454545;
         font-family: "raleway-regular", arial;
         font-size: 14px;
