@@ -80,7 +80,7 @@
             </li>
             
             <li>
-                <a href="/">About</a>
+                <a href="/about">About</a>
             </li>
             
         </ul>
@@ -146,7 +146,11 @@
             <p>2016/10/10<br>最近可烦，感觉学了的东西都不记得了<br>被那个H5动画搞得…<br>虽然我一直有在记笔记，但是我觉得是时候记电子笔记了<br>算是一个记录吧，也许是我太激进了<br>慢慢来吧，从今天开始</p>
 <p>先搞一个计划-SuccessPlan:<br>1.计算器<br>2.把那个之前遗留下来的集团的写完吧</p>
 <p>嗯，先这样吧，手上还有一个小项目，还有好像没时间画画了sad</p>
-<p>2016/10/11<br>title: ‘CSS3实现背景颜色渐变’<br>一. Webkit浏览器<br>      (1) 第一种写法：<br>            background:-webkit-gradient(linear ,10% 10%，100% 100%，color-stop(0.14,rgb(255,0,0)),color-stop(0.5,rgb(255,255,0)),color-stop(1,rgb(0,0,255)) );<br>             第一个参数：表示的是渐变的类型，linear线性渐变<br>             第二个参数：分别对应x，y方向渐变的起始位置<br>             第三个参数：分别对应x，y方向渐变的终止位置<br>             第四/五/N个参数：设置渐变的位置及颜色<br>      (2)第二种写法：这种写法比较简单，而且效果比较自然<br>            background:-webkit-gradient(linear, 0 0, 0 100%, from(＃2074af), to(＃2c91d2));<br>             第一个参数：表示的是渐变的类型，linear线性渐变<br>             第二个参数：分别对应x，y方向渐变的起始位置<br>             第三个参数：分别对应x，y方向渐变的终止位置<br>             第四个参数：设置了起始位置的颜色<br>             第五个参数：设置了终止位置的颜色<br>二.Mozilla浏览器<br>      (1)第一种写法：<br>           background:-moz-linear-gradient(10 10 90deg,rgb(25,0,0) 14%,rgb(255,255,0) 50%,rgb(0,0,255) 100%);<br>           第一个参数：设置渐变起始位置及角度<br>           第二/三/四/N个参数：设置渐变的颜色和位置<br>      (2)第二种写法：这种写法比较简单，而且效果比较自然<br>           background:-moz-linear-gradient(top, ＃FFC3C8,＃FF9298);<br>           第一个参数：设置渐变的起始位置<br>           第二个参数：设置起始位置的颜色<br>           第三个参数：设置终止位置的颜色<br>三.IE 浏览器<br>     IE浏览器实现渐变只能使用IE自己的滤镜去实现<br>          filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=＃00ffff,endColorstr=＃9fffff,grandientType=1);<br>          第一个参数：渐变起始位置的颜色<br>          第二个参数：渐变终止位置的颜色<br>          第三个参数：渐变的类型<br>     0 代表竖向渐变        1  代表横向渐变<br>     P.S.这里设置背景的时候不需要给background设置，直接用filter即可，不要和其他的浏览器混淆</p>
+<p>2016/10/11</p>
+<h3 id="CSS3实现背景颜色渐变"><a href="#CSS3实现背景颜色渐变" class="headerlink" title="CSS3实现背景颜色渐变"></a>CSS3实现背景颜色渐变</h3><p>一. Webkit浏览器<br>      (1) 第一种写法：<br>            background:-webkit-gradient(linear ,10% 10%，100% 100%，color-stop(0.14,rgb(255,0,0)),color-stop(0.5,rgb(255,255,0)),color-stop(1,rgb(0,0,255)) );<br>             第一个参数：表示的是渐变的类型，linear线性渐变<br>             第二个参数：分别对应x，y方向渐变的起始位置<br>             第三个参数：分别对应x，y方向渐变的终止位置<br>             第四/五/N个参数：设置渐变的位置及颜色<br>      (2)第二种写法：这种写法比较简单，而且效果比较自然<br>            background:-webkit-gradient(linear, 0 0, 0 100%, from(＃2074af), to(＃2c91d2));<br>             第一个参数：表示的是渐变的类型，linear线性渐变<br>             第二个参数：分别对应x，y方向渐变的起始位置<br>             第三个参数：分别对应x，y方向渐变的终止位置<br>             第四个参数：设置了起始位置的颜色<br>             第五个参数：设置了终止位置的颜色<br>二.Mozilla浏览器<br>      (1)第一种写法：<br>           background:-moz-linear-gradient(10 10 90deg,rgb(25,0,0) 14%,rgb(255,255,0) 50%,rgb(0,0,255) 100%);<br>           第一个参数：设置渐变起始位置及角度<br>           第二/三/四/N个参数：设置渐变的颜色和位置<br>      (2)第二种写法：这种写法比较简单，而且效果比较自然<br>           background:-moz-linear-gradient(top, ＃FFC3C8,＃FF9298);<br>           第一个参数：设置渐变的起始位置<br>           第二个参数：设置起始位置的颜色<br>           第三个参数：设置终止位置的颜色<br>三.IE 浏览器<br>     IE浏览器实现渐变只能使用IE自己的滤镜去实现<br>          filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=＃00ffff,endColorstr=＃9fffff,grandientType=1);<br>          第一个参数：渐变起始位置的颜色<br>          第二个参数：渐变终止位置的颜色<br>          第三个参数：渐变的类型<br>     0 代表竖向渐变        1  代表横向渐变<br>     P.S.这里设置背景的时候不需要给background设置，直接用filter即可，不要和其他的浏览器混淆</p>
+<p>2016/12/11</p>
+<h3 id="markdown"><a href="#markdown" class="headerlink" title="markdown"></a>markdown</h3><p>这个博客一直在用MD写，其实也没又怎么看过语法文档，只是依瓢画葫芦，但是总觉得还是要看一看吧，留下两个网址：</p>
+<p>官方语法学习，样式很差，看起来比较难受<br><a href="http://www.appinn.com/markdown/" target="_blank" rel="external">Markdown语法</a><br>这个是别人写的，有图比较好<br><a href="http://sspai.com/25137" target="_blank" rel="external">少数派</a></p>
 
 
             <!-- Tags -->
